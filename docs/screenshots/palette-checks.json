@@ -1,0 +1,259 @@
+{
+  "scope": "Live acceptance account, isolated Edge, read-only views and local unsaved appearance changes. Evidence spans one complete snapshot and one interrupted follow-up.",
+  "completedSnapshot": {
+    "date": "2026-11-11",
+    "viewportSizes": [
+      "1440x1000",
+      "390x844"
+    ],
+    "checkedPages": [
+      "write",
+      "calendar",
+      "settings",
+      "journals",
+      "library",
+      "data"
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "accents": [
+      "blue",
+      "rose"
+    ],
+    "checkCount": 45,
+    "initialPassCount": 44,
+    "initialMeasurementIssue": "One desktop light selected-navigation contrast measurement misparsed CSS color(srgb) normalized channels. This measurement was corrected in the follow-up, ratio 6.35394.",
+    "screenshots": 28,
+    "pageErrors": [],
+    "horizontalOverflow": [],
+    "attemptedContentOrSettingsMutations": [],
+    "legacyServerAccent": "olive",
+    "renderedLegacyAccent": "blue",
+    "classicBlueRadioSelected": true,
+    "serverAppearanceUnchanged": true,
+    "serverAppearance": {
+      "accent": "olive"
+    },
+    "isolatedContextRestoredTo": {
+      "accent": "blue",
+      "theme": "light"
+    },
+    "tinyCalendarCount": "Not applicable to the empty live account. Selected-count CSS opacity 1 was checked; no content was injected.",
+    "savedTime": "Not present on the empty current-day entry; no live contrast measurement was available."
+  },
+  "correctedFollowUp": {
+    "date": "2026-11-11",
+    "checkCount": 18,
+    "passedBeforeInterruption": 17,
+    "screenshotsRecaptured": [
+      "palette-desktop-settings-light.png",
+      "palette-desktop-write-light.png",
+      "palette-desktop-calendar-light.png",
+      "palette-desktop-journals-light.png",
+      "palette-desktop-library-light.png",
+      "palette-desktop-data-light.png",
+      "palette-desktop-settings-light-rose.png",
+      "palette-desktop-settings-dark.png",
+      "palette-desktop-write-dark.png"
+    ],
+    "measurements": [
+      {
+        "label": "desktop light blue primary normal",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          15,
+          98,
+          254
+        ],
+        "opacity": "1",
+        "ratio": 5.001743426261197
+      },
+      {
+        "label": "desktop light blue primary hover",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          0,
+          67,
+          206
+        ],
+        "opacity": "1",
+        "ratio": 7.794787164495322
+      },
+      {
+        "label": "desktop light muted text",
+        "foreground": [
+          82,
+          82,
+          82
+        ],
+        "background": [
+          255,
+          255,
+          255
+        ],
+        "opacity": "1",
+        "ratio": 7.81388303728913
+      },
+      {
+        "label": "desktop light selected navigation",
+        "foreground": [
+          0,
+          67,
+          206
+        ],
+        "background": [
+          225.6801,
+          232.320045,
+          244.79999999999998
+        ],
+        "opacity": "1",
+        "ratio": 6.3539406072702365
+      },
+      {
+        "label": "desktop light selected calendar date normal",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          15,
+          98,
+          254
+        ],
+        "opacity": "1",
+        "ratio": 5.001743426261197
+      },
+      {
+        "label": "desktop light selected calendar date hover",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          0,
+          67,
+          206
+        ],
+        "opacity": "1",
+        "ratio": 7.794787164495322
+      },
+      {
+        "label": "desktop light rose primary normal",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          159,
+          24,
+          83
+        ],
+        "opacity": "1",
+        "ratio": 7.6930237621185995
+      },
+      {
+        "label": "desktop light rose primary hover",
+        "foreground": [
+          255,
+          255,
+          255
+        ],
+        "background": [
+          116,
+          9,
+          55
+        ],
+        "opacity": "1",
+        "ratio": 11.432660913583714
+      },
+      {
+        "label": "desktop dark blue primary normal",
+        "foreground": [
+          22,
+          22,
+          22
+        ],
+        "background": [
+          166,
+          200,
+          255
+        ],
+        "opacity": "1",
+        "ratio": 10.622570205350314
+      },
+      {
+        "label": "desktop dark blue primary hover",
+        "foreground": [
+          22,
+          22,
+          22
+        ],
+        "background": [
+          208,
+          226,
+          255
+        ],
+        "opacity": "1",
+        "ratio": 13.791486675552699
+      },
+      {
+        "label": "desktop dark muted text",
+        "foreground": [
+          198,
+          198,
+          198
+        ],
+        "background": [
+          38,
+          38,
+          38
+        ],
+        "opacity": "1",
+        "ratio": 8.859766332922407
+      },
+      {
+        "label": "desktop dark selected navigation",
+        "foreground": [
+          208,
+          226,
+          255
+        ],
+        "background": [
+          33.520005000000005,
+          36.240089999999995,
+          40.640114999999994
+        ],
+        "opacity": "1",
+        "ratio": 11.827324756671619
+      }
+    ],
+    "unavailableCheck": "Selected calendar date disappeared during concurrent functional source hot reload.",
+    "interruption": "Concurrent functional work changed offline.ts exports. Browser reported that queuedUploads is not exported. No product files were modified by this verifier.",
+    "observedPageErrors": [
+      "The requested module '/src/lib/offline.ts?t=1794364361933' does not provide an export named 'queuedUploads'",
+      "locator.hover: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.calendar-day.selected')\u001b[22m\n\n    at D:\\华中师范大学\\课程资料\\大三上\\Web程序设计\\.assignment-tools\\diaryhistory\\.tmp\\palette-check.mjs:129:56"
+    ],
+    "horizontalOverflow": [],
+    "attemptedContentOrSettingsMutations": []
+  },
+  "visualInspection": [
+    "palette-desktop-write-light.png",
+    "palette-mobile-settings-dark.png",
+    "palette-desktop-write-dark.png",
+    "palette-mobile-calendar-light.png"
+  ],
+  "limitation": "Palette evidence validates the captured snapshots. The latest concurrently edited application could not complete the follow-up. Live database diary writes were not exercised."
+}

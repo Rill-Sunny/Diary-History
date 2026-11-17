@@ -1,0 +1,11 @@
+{
+  "id": "/",
+  "name": "留白日记",
+  "short_name": "留白日记",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8f8f3",
+  "theme_color": "#f8f8f3"
+}

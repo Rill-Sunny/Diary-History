@@ -1,0 +1,13 @@
+{
+  "buttonClickableWithIssues": true,
+  "validationBlocksRequests": true,
+  "issueLinksFocusInputs": true,
+  "defaultYearPreservesEdits": true,
+  "missingImageAndEmptyGuards": true,
+  "allSkippedExplained": true,
+  "invalidAndFutureDatesExplained": true,
+  "manualDatesWithoutDefaultYear": true,
+  "importedJournals": 2,
+  "previewRequests": 3,
+  "browserErrors": []
+}

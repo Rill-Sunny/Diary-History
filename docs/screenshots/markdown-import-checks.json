@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "file": "utf8.md",
+      "preview": 2,
+      "plan": [
+        "新增 2 篇，完全重复 0 篇将跳过。"
+      ],
+      "result": "2 篇已导入，重复项跳过 0 篇。"
+    },
+    {
+      "file": "gb18030.md",
+      "preview": 1,
+      "plan": [
+        "新增 1 篇，完全重复 0 篇将跳过。"
+      ],
+      "result": "1 篇已导入，重复项跳过 0 篇。"
+    },
+    {
+      "file": "utf16.zip",
+      "preview": 1,
+      "plan": [
+        "新增 1 篇，完全重复 0 篇将跳过。"
+      ],
+      "result": "1 篇已导入，重复项跳过 0 篇。"
+    },
+    {
+      "file": "no-date.md",
+      "preview": 1,
+      "plan": [
+        "新增 1 篇，完全重复 0 篇将跳过。"
+      ],
+      "result": "1 篇已导入，重复项跳过 0 篇。"
+    },
+    {
+      "file": "partial-dates.md",
+      "preview": 2,
+      "plan": [
+        "新增 2 篇，完全重复 0 篇将跳过。"
+      ],
+      "result": "2 篇已导入，重复项跳过 0 篇。"
+    },
+    {
+      "duplicateSkipped": 2
+    },
+    {
+      "readErrorInline": true,
+      "sameFileRetry": true
+    },
+    {
+      "emptyFileExplained": true
+    }
+  ],
+  "persistedJournals": 7,
+  "browserErrors": []
+}

@@ -1,0 +1,236 @@
+{
+  "scope": "Playwright Edge headless, fixture API only, fictional data, 2026-11-11 Asia/Shanghai",
+  "checks": [
+    {
+      "name": "desktop: all 10 navigation destinations reachable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile: all 10 navigation destinations reachable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Mobile dialog keeps keyboard focus inside",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape closes navigation and restores focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Existing entry content reaches save request",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Autosave retains editor focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hide toolbar keeps editor content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Toolbar can be restored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Date input has usable dimensions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Journal date change reaches save request",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "First save retains editor focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New entry POST occurs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Offline editing persists plain content into IndexedDB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Chinese title search filters results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No search results state visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Clear filters restores results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search failure shown without empty-result message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "浅色 橄榄绿 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "4.86"
+    },
+    {
+      "name": "浅色 雾蓝 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "5.29"
+    },
+    {
+      "name": "浅色 灰玫瑰 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "5.14"
+    },
+    {
+      "name": "深色 橄榄绿 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "8.67"
+    },
+    {
+      "name": "深色 雾蓝 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "7.45"
+    },
+    {
+      "name": "深色 灰玫瑰 primary button contrast >= 4.5",
+      "passed": true,
+      "detail": "6.54"
+    },
+    {
+      "name": "desktop register fields available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile register fields available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop shared reading content is read-only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop invalid share has honest unavailable state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile shared reading content is read-only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile invalid share has honest unavailable state",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "captures": [
+    "desktop-write-light",
+    "desktop-journals-light",
+    "desktop-library-light",
+    "desktop-calendar-light",
+    "desktop-history-light",
+    "desktop-shares-light",
+    "desktop-data-light",
+    "desktop-trash-light",
+    "desktop-settings-light",
+    "desktop-admin-light",
+    "desktop-settings-dark",
+    "desktop-write-dark",
+    "mobile-write-light",
+    "mobile-journals-light",
+    "mobile-library-light",
+    "mobile-calendar-light",
+    "mobile-history-light",
+    "mobile-shares-light",
+    "mobile-data-light",
+    "mobile-trash-light",
+    "mobile-settings-light",
+    "mobile-admin-light",
+    "mobile-settings-dark",
+    "mobile-write-dark",
+    "mobile-navigation-dark",
+    "desktop-search-empty",
+    "desktop-search-error",
+    "desktop-login-light",
+    "desktop-register-light",
+    "mobile-login-light",
+    "mobile-register-light",
+    "desktop-shared-light",
+    "desktop-shared-unavailable",
+    "mobile-shared-light",
+    "mobile-shared-unavailable",
+    "narrow-write-light",
+    "narrow-data-light"
+  ],
+  "errors": [],
+  "warnings": [],
+  "overflow": [],
+  "contrast": [
+    {
+      "theme": "light",
+      "accent": "olive",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(104, 119, 71)",
+      "ratio": 4.862993253915176
+    },
+    {
+      "theme": "light",
+      "accent": "blue",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(72, 111, 147)",
+      "ratio": 5.2888251423711266
+    },
+    {
+      "theme": "light",
+      "accent": "rose",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 94, 100)",
+      "ratio": 5.144653549514602
+    },
+    {
+      "theme": "dark",
+      "accent": "olive",
+      "color": "rgb(32, 39, 25)",
+      "background": "rgb(183, 202, 141)",
+      "ratio": 8.674401389531692
+    },
+    {
+      "theme": "dark",
+      "accent": "blue",
+      "color": "rgb(32, 39, 25)",
+      "background": "rgb(154, 184, 211)",
+      "ratio": 7.44755545162831
+    },
+    {
+      "theme": "dark",
+      "accent": "rose",
+      "color": "rgb(32, 39, 25)",
+      "background": "rgb(210, 155, 159)",
+      "ratio": 6.538599970408593
+    }
+  ]
+}

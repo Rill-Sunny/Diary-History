@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T01:57:12.388Z",
+  "title": "留白日记",
+  "extensions": {
+    "motion": [
+      {
+        "name": "navigation-in",
+        "value": "240ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "完整导航打开反馈，减少动画偏好下禁用"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "700px"
+      },
+      {
+        "name": "tablet",
+        "value": "1180px"
+      }
+    ]
+  },
+  "narrative": {
+    "northStar": "安静、清楚的中文写作空间",
+    "overview": "Craft 布局、Bear 正文阅读，配色按用户新要求改为 IBM Carbon 参考的经典蓝与中性灰。",
+    "keyCharacteristics": [
+      "正文主导",
+      "完整移动导航",
+      "真实状态反馈"
+    ]
+  }
+}

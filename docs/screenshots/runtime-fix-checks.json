@@ -1,0 +1,28 @@
+{
+  "login": true,
+  "journalCreated": true,
+  "pages": [
+    {
+      "label": "日历与记录",
+      "contentVisible": true,
+      "error": false
+    },
+    {
+      "label": "分享管理",
+      "contentVisible": true,
+      "error": false
+    },
+    {
+      "label": "数据管理",
+      "contentVisible": true,
+      "error": false
+    }
+  ],
+  "shareSubmitted": true,
+  "avatarUploaded": true,
+  "avatarPersisted": true,
+  "oversizeExplained": true,
+  "sameFileRetry": true,
+  "avatarRemoved": true,
+  "browserErrors": []
+}

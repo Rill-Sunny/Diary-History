@@ -1,0 +1,88 @@
+{
+  "scope": "Targeted visual-review CSS fixes only; browser fixture API with fictional content",
+  "checks": [
+    {
+      "name": "390px light metadata controls",
+      "passed": true,
+      "controls": [
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        },
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        }
+      ]
+    },
+    {
+      "name": "390px backup checkbox and footnote do not overlap",
+      "passed": true,
+      "checkboxLabelBottom": 1316.84375,
+      "footnoteTop": 1328.84375,
+      "gap": 12,
+      "marginTop": "12px"
+    },
+    {
+      "name": "390px light document overflow",
+      "passed": true
+    },
+    {
+      "name": "390px dark metadata controls",
+      "passed": true,
+      "controls": [
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        },
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        }
+      ]
+    },
+    {
+      "name": "390px dark document overflow",
+      "passed": true
+    },
+    {
+      "name": "320px light metadata controls",
+      "passed": true,
+      "controls": [
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        },
+        {
+          "height": 44,
+          "minHeight": 44,
+          "fontSize": 16
+        }
+      ]
+    },
+    {
+      "name": "320px backup checkbox and footnote do not overlap",
+      "passed": true,
+      "checkboxLabelBottom": 1390.9375,
+      "footnoteTop": 1402.9375,
+      "gap": 12,
+      "marginTop": "12px"
+    },
+    {
+      "name": "320px light document overflow",
+      "passed": true
+    }
+  ],
+  "captures": [
+    "mobile-write-light",
+    "mobile-data-light",
+    "mobile-write-dark",
+    "narrow-write-light",
+    "narrow-data-light"
+  ]
+}
